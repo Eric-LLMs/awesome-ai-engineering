@@ -8,6 +8,25 @@ A full-stack LLM engineering playbook — practical guides for building, deployi
 
 <a id="top"></a>
 
+## 🗺️ AI Engineering: End-to-End Architecture
+
+A system-level view of modern AI engineering — from compute and data infrastructure,
+through model development, inference, tools, memory, and agent orchestration,
+to production applications, evaluation, security, and continuous improvement.
+
+<p align="center">
+  <img
+    src="./summaries/AI-Engineering-End-to-End%20Architecture.png"
+    alt="AI Engineering End-to-End Architecture"
+    width="100%"
+  />
+</p>
+
+> This architecture is a conceptual map of the AI engineering stack, not a
+> prescriptive runtime topology. It separates offline model development from
+> online serving while showing the main interaction and feedback loops across
+> the system.
+
 ## 📑 Table of Contents
 
 | 📚 Content                                                       | 🔗 Quick Link                                                 |
