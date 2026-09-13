@@ -147,6 +147,8 @@ Covers the full-stack AI infrastructure for the enterprise — AI chips, compute
 
 **VI. Unified Gateway**
 
+* **[Bifrost](https://github.com/maximhq/bifrost):** Open-source AI gateway with an OpenAI-compatible API, multi-provider routing, load balancing, virtual keys, and request logging.
+
 * **[LiteLLM](https://github.com/BerriAI/litellm):** A unified LLM gateway with an OpenAI-compatible API — model routing, rate limits, budgets, and logging for enterprise private deployments.
 
 **VII. Security & Guardrails**
