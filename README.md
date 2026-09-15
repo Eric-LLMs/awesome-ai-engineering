@@ -2,9 +2,9 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-### The Full-Stack LLM Engineering Playbook
+### A Full-Stack AI Engineering Playbook
 
-A full-stack LLM engineering playbook — practical guides for building, deploying, and evaluating LLM systems and AI agents. For a deep dive into the research frontier, explore the [📖 LLM Technology Landscape & Evolution](https://github.com/Eric-LLMs/LLMs-Lab/tree/main/Docs) — a curated reading list covering the full LLM stack, from model architectures and training, fine-tuning, inference optimization, reasoning, and Agent systems.  
+A systems-level guide to building production AI systems — from infrastructure and model engineering to agents, memory, tools, evaluation, security, and deployment. For a deep dive into the research frontier, explore the [📖 LLM Technology Landscape & Evolution](https://github.com/Eric-LLMs/LLMs-Lab/tree/main/Docs) — a curated reading list covering the full LLM stack, from model architectures and training, fine-tuning, inference optimization, reasoning, and Agent systems.  
 
 <a id="top"></a>
 
@@ -187,15 +187,9 @@ Covers the full-stack AI infrastructure for the enterprise — AI chips, compute
 [📥 **Download PDF** (Direct Link)](https://raw.githubusercontent.com/Eric-LLMs/Awesome-AI-Engineering/main/summaries/introduction-to-ai-agents/agents-architecture-operations-slides.pdf)  
   
 
-### 🛠️ Hands-on: A Minimal ReAct Agent  
-👉 [**View the AI Agent Project in the LLMs-Lab repository on the Eric-LLMs GitHub profile.**](https://github.com/Eric-LLMs/LLMs-Lab/tree/main/Agent/Agent_Project)
-  
-To bridge theory with practice, I developed a modular AI Agent project that implements autonomous reasoning and task execution:
+### 🛠️ Hands-on: A Minimal ReAct Agent
 
-* **Architecture:** Utilizes a decoupled structure with dedicated directories for `Agent` logic, `Tools`, `Utils`, and `Prompts`.
-* **Reasoning Loop:** Features an `AutoGPT.py` implementation using **ReAct (Reasoning and Acting)** logic to handle complex, multi-step goal decomposition.
-* **Functional Tools:** Includes custom tools for deep data analysis (Excel processing via Pandas), automated communication via email, PDF-based QA interrogation (**FileQATool**), requirements-driven document generation (**WriterTool**), and dynamic script-based auditing of structured files using custom heuristics and thresholds (**PythonTool**).
-* **End-to-End Workflow:** Supports real-world scenarios, such as identifying underperforming suppliers from sales records and autonomously drafting/sending notifications.
+👉 [**A Minimal ReAct Agent**](https://github.com/Eric-LLMs/LLMs-Lab/tree/main/Agent/Agent_Project) — a modular agent project in LLMs-Lab: ReAct reasoning loop with custom tools (Excel/Pandas data analysis, PDF QA, document generation, email).
 
 ### 🧰 Key Open-Source Projects & References
 
