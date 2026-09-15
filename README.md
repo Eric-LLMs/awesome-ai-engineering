@@ -2,17 +2,20 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-### A Full-Stack AI Engineering Playbook
+### The Full-Stack AI Engineering Playbook
 
-A systems-level guide to building production AI systems — from infrastructure and model engineering to agents, memory, tools, evaluation, security, and deployment. For a deep dive into the research frontier, explore the [📖 LLM Technology Landscape & Evolution](https://github.com/Eric-LLMs/LLMs-Lab/tree/main/Docs) — a curated reading list covering the full LLM stack, from model architectures and training, fine-tuning, inference optimization, reasoning, and Agent systems.  
+A practical, systems-level guide to building production AI systems
+and agentic applications — from core infrastructure to deployment,
+security, and evaluation. For a deep dive into the research frontier,
+explore the [📖 LLM Technology Landscape & Evolution](https://github.com/Eric-LLMs/LLMs-Lab/tree/main/Docs)
+— a curated reading list covering the full LLM stack, from model architectures
+and training, fine-tuning, inference optimization, reasoning, and agent systems.
 
 <a id="top"></a>
 
 ## 🗺️ AI Engineering: End-to-End Architecture
 
-A system-level view of modern AI engineering — from compute and data infrastructure,
-through model development, inference, tools, memory, and agent orchestration,
-to production applications, evaluation, security, and continuous improvement.
+A system-level view of AI engineering — from compute and data infrastructure, through model development, inference, tools, memory, and agent orchestration, to production applications, evaluation, security, and continuous improvement.
 
 <p align="center">
   <img
@@ -77,7 +80,7 @@ This guide covers LLM production, from Transformer architectures to advanced tec
   - **Permissions & key management**: admin console for roles, users, LLM provider credentials + model catalog + routing weights, a per-user key-grant matrix (masked `sk-***`), SMTP, and stateless signed admin sessions.
   - **Local-first & self-hosted**: Electron workbench works offline (file tree, multi-format viewer, video screenshots), big media is processed on the local client, and the whole stack (PostgreSQL/pgvector, Redis, TEI embedding, Kokoro TTS, LiteLLM gateway) runs via docker-compose — your data stays yours.
 
-* **[LLMs-Lab](https://github.com/Eric-LLMs/LLMs-Lab):** Research modules covering **Fine-Tuning**, **RAG optimization**, **LangChain**, **Prompt Engineering**, **Function-Calling**, **Agent**, etc. — each studied as a standalone module with multiple project implementations.
+* **[LLMs-Lab](https://github.com/Eric-LLMs/LLMs-Lab):** Hands-on research and engineering modules covering **Fine-Tuning**, **RAG optimization**, **LangChain**, **Prompt Engineering**, **Function-Calling**, **Agents**, etc. — each explored as a standalone module with multiple project implementations.
 
 [⬆️ Back to Top : Table of Contents](#top)  
   
