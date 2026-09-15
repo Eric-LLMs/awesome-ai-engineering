@@ -419,7 +419,6 @@ Implementing a robust evaluation pipeline requires specific infrastructure. The 
 | **[W&B Weave](https://github.com/wandb/weave)** | Tracing & Eval | Lightweight LLM instrumentation, eval harnesses, and dataset versioning. |
 | **[DeepEval](https://github.com/confident-ai/deepeval)** | Unit Testing | "Pytest for LLMs". Specific metrics for RAG (Hallucination, Answer Relevancy) and Agents. |
 | **[OpenAI Evals](https://github.com/openai/evals)** | Evaluation Framework | OpenAI's open-source framework for model-graded evals — YAML/JSON config-driven, custom eval classes, and dataset registries. |
-| **[Braintrust](https://github.com/braintrustdata/braintrust-sdk)** | Evaluation Platform | Dataset management, LLM-as-a-judge scoring, online evals, and A/B testing. |
 | **[OpenEvals](https://github.com/langchain-ai/openevals)** | Graders | A library of pre-built "LLM-as-a-judge" prompts (Conciseness, Correctness, Coherence) compatible with LangSmith. |
 | **[AgentOps](https://github.com/AgentOps-AI/agentops)** | Agent DevOps & Monitoring | Session replays, agent benchmarking, and cost & reliability tracking for autonomous agents. |
 | **[Promptfoo](https://github.com/promptfoo/promptfoo)** | Red Teaming & Regression | Declarative eval configs, LLM regression testing, and adversarial red-teaming. |
