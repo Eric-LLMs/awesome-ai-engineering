@@ -244,7 +244,6 @@ A deep dive into the Model Context Protocol (MCP) — the open standard that con
   
 
 ### 🧰 Key Frameworks & Tools
-- [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) — record & replay AI coding-agent runs offline.
 
 The official Model Context Protocol SDKs and reference implementations for building and connecting MCP servers:
 * **[specification](https://github.com/modelcontextprotocol/modelcontextprotocol)**: The official protocol specification and schema — core primitives (tools, resources, prompts) and transports.
@@ -423,6 +422,7 @@ Implementing a robust evaluation pipeline requires specific infrastructure. The 
 | **[OpenEvals](https://github.com/langchain-ai/openevals)** | Graders | A library of pre-built "LLM-as-a-judge" prompts (Conciseness, Correctness, Coherence) compatible with LangSmith. |
 | **[AgentOps](https://github.com/AgentOps-AI/agentops)** | Agent DevOps & Monitoring | Session replays, agent benchmarking, and cost & reliability tracking for autonomous agents. |
 | **[Promptfoo](https://github.com/promptfoo/promptfoo)** | Red Teaming & Regression | Declarative eval configs, LLM regression testing, and adversarial red-teaming. |
+| **[OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)** | Run Recording & Replay | Records an agent run's model traffic (prompts, tool calls, responses) to a local trace and replays it offline — no provider called — so a failing eval run reproduces exactly, or forks from any step onto another model. |
 
 #### 2. Architecture: Hybrid Agent (Fast vs. Slow)
 To balance cost and performance, we implement a **Hybrid Agent Architecture**:
