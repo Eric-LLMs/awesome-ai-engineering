@@ -244,6 +244,7 @@ A deep dive into the Model Context Protocol (MCP) — the open standard that con
   
 
 ### 🧰 Key Frameworks & Tools
+- [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) — record & replay AI coding-agent runs offline.
 
 The official Model Context Protocol SDKs and reference implementations for building and connecting MCP servers:
 * **[specification](https://github.com/modelcontextprotocol/modelcontextprotocol)**: The official protocol specification and schema — core primitives (tools, resources, prompts) and transports.
