@@ -122,6 +122,8 @@ Covers the full-stack AI infrastructure for the enterprise — AI chips, compute
 
 #### RL / Alignment
 
+* **[Halo](https://github.com/whitecircle/halo):** A distributed pre- and post-training framework for native Hugging Face language and multimodal models, with FSDP2, expert, context, and tensor parallelism, fused kernels, and asynchronous multi-turn RL.
+
 * **[veRL](https://github.com/verl-project/verl):** ByteDance Seed's production-grade RL post-training framework — supports PPO, GRPO, DAPO, PRIME, and multi-turn tool-calling agents, with vLLM/SGLang rollout and FSDP/Megatron-LM training backends.
 
 * **[OpenRLHF](https://github.com/OpenRLHF/OpenRLHF):** A high-performance distributed RLHF framework built on Ray, vLLM, and DeepSpeed — supporting PPO, GRPO, REINFORCE++, and multi-turn agent training.
