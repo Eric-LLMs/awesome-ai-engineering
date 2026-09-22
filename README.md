@@ -207,6 +207,7 @@ The following open-source projects represent prominent examples of agentic AI en
 | **[OpenClaw](https://github.com/openclaw/openclaw)** | Personal AI assistant, local-first, any OS/platform | Local-first Gateway, multi-channel messaging, voice support, session & tool management |
 | **[Pi](https://github.com/earendil-works/pi)** | Open-source AI agent toolkit: unified multi-provider LLM API, agent runtime, and an interactive coding agent CLI | Self-extensible coding agent, multi-provider API, terminal UI library, npm supply-chain hardening |
 | **[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)** | DeepSeek AI's open-source agent harness with a plugin-driven architecture ("everything is a plugin") | Plugin composability via Cordis, Web UI, monorepo, developer preview |
+| **[YYLO](https://github.com/yylo-dev/yylo)** | Open-source command-line orchestrator for coding agents, repeatable workflows, and receipt-backed repository changes | Typed task/validation/merge/release-readiness boundaries, dedicated branch/worktree per task, merge queue with risk-based review, Pi and Codex subagents |
 
 > These projects showcase diverse agent architectures — from developer-focused coding agents (Claude Code/OpenAI Codex/claurst) to general-purpose personal assistants (OpenClaw) and self-learning agents (Hermes-Agent). Studying their design decisions is valuable for building your own agent systems.
   
